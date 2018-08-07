@@ -1,0 +1,87 @@
+# Site settings
+title: mattrude.com Communication Service
+email: matt@mattrude.com
+description: ""
+url: "https://im.mattrude.com"
+name: "mattrude.com"
+baseurl: "im.mattrude.com"
+destination: "/var/www/im.mattrude.com"
+ejabberd-version: "18.06.95"
+ejabberd-gitversion: "0146189b6551c1562823ed43ab3d3bca90a3a19b"
+prosody-version: ""
+server-features: 1
+user-guide: 0
+
+owner-name: "Matt Rude"
+owner-pgpkey: "0xc4909ee495b0761f"
+owner-url: "https://mattrude.com/"
+owner-xmpp: "matt@mattrude.com"
+#owner-email: "matt@mattrude.com"
+owner-twitter: "mdrude"
+owner-github: "mattrude"
+
+xmpp-url: "mattrude.com" # The XMPP domain url
+xmpp-host: "im.mattrude.com" # The hostname of the server
+xmpp-conference-url: "conference.mattrude.com" # Multi-User Chat xep-0045
+xmpp-proxy-url: "proxy.mattrude.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
+xmpp-upload-url: "upload.mattrude.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
+
+xep-0160: 0 # Best Practices for Handling Offline Messages
+xep-0163: 1 # Personal Eventing Protocal
+xep-0237: 1 # Roster Versioning
+xep-0280: 1 # Message Carbons
+xep-0191: 1 # Blocking Command
+xep-0045: 1 # Multi-User Chat
+xep-0198: 1 # Stream Management
+xep-0313: 1 # Message Archive Management
+xep-0352: 1 # Client State Indication
+xep-0363: 1 # HTTP File Upload
+xep-0065: 1 # SOCKS 5 Bytestreams (Proxy)
+xep-0357: 1 # Push Notifications
+xep-0375: 0 # XMPP protocol compliance levels for 2016
+
+fingerprints: 1
+fingerprint-expires: "Sep 18 00:00:15 2018 GMT"
+fingerprint-im-expires: "Sep 19 06:42:39 2018 GMT"
+fingerprint-conference-expires: "Sep 19 06:42:39 2018 GMT"
+fingerprint-proxy-expires: "Sep 19 06:42:39 2018 GMT"
+fingerprint-upload-expires: "Sep 19 06:42:39 2018 GMT"
+fingerprint-sha1: "15:F5:30:A6:C5:B5:BE:A6:50:82:45:25:5B:0F:01:F7:74:DF:5D:86"
+fingerprint-sha256: "78:E0:EA:9F:77:F8:5F:77:79:F5:8A:DA:95:F3:EF:B2:50:FE:63:8D:5A:A2:73:E1:2C:1E:F3:E3:F1:40:AE:78"
+fingerprint-im-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
+fingerprint-im-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
+fingerprint-conference-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
+fingerprint-conference-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
+fingerprint-proxy-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
+fingerprint-proxy-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
+fingerprint-upload-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
+fingerprint-upload-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
+
+# Analytics settings
+#google_analytics_id: UA-9532791-9
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+highlighter: rouge
+date: YYYY-MM-DD HH:MM
+
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
+- css/syntax.less
+- css/site.less
+- css/small.less
+
+plugins:
+- jekyll-sitemap
+#- jekyll-press
+
+jekyll-press:
+  exclude: 'robots.txt, contact.txt, contact-ecc.txt' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+  js_options: {}      # js minifier options
+  css_options: {}     # css minifier options
+  html_options: {}    # html minifier options
