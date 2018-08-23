@@ -6,9 +6,10 @@ url: "https://im.soderparr.com"
 name: "soderparr.com"
 baseurl: "soderparr.com"
 destination: "/var/www/im.soderparr.com"
-ejabberd-version: "18.06.95"
-ejabberd-gitversion: "0146189b6551c1562823ed43ab3d3bca90a3a19b"
-prosody-version:
+ejabberd-version: "18.06.109"
+ejabberd-gitversion: "0cbd41fbdc6a9a3d2d3153fd9305c90538b0448a"
+ejabberd-upload-days: "90"
+ejabberd-upload-fsize: "1 GB"
 
 owner-name: "Matt Rude"
 owner-pgpkey: "0xc4909ee495b0761f"
@@ -26,18 +27,17 @@ xmpp-upload-url: "upload.soderparr.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
 user-guide: 0
 server-features: 1
 
-xep-0163: 1 # Personal Eventing Protocal
-xep-0237: 1 # Roster Versioning
-xep-0280: 1 # Message Carbons
-xep-0191: 1 # Blocking Command
-xep-0045: 1 # Multi-User Chat
-xep-0198: 1 # Stream Management
-xep-0313: 1 # Message Archive Management
-xep-0352: 1 # Client State Indication
-xep-0363: 1 # HTTP File Upload
-xep-0065: 1 # SOCKS 5 Bytestreams (Proxy)
-xep-0357: 1 # Push Notifications
-xep-0375: 0 # XMPP protocol compliance levels for 2016
+xep-0163: 1
+xep-0237: 0
+xep-0280: 1
+xep-0191: 1
+xep-0045: 1
+xep-0198: 1
+xep-0313: 1
+xep-0352: 1
+xep-0363: 1
+xep-0065: 1
+xep-0357: 1
 
 fingerprints: 1
 fingerprint-expires: "Oct 28 01:33:36 2018 GMT"
@@ -65,6 +65,7 @@ permalink: pretty
 highlighter: rouge
 date: YYYY-MM-DD HH:MM
 
+include: [".well-known"]
 exclude:
 - README.md
 - CONTRIBUTING.md

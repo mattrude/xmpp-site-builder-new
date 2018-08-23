@@ -7,8 +7,10 @@ description: ""
 prefix: "https://"
 hostname: "therudes.com"
 uri: "/xmpp"
-ejabberd-version: "18.06.95"
-ejabberd-gitversion: "0146189b6551c1562823ed43ab3d3bca90a3a19b"
+ejabberd-version: "18.06.109"
+ejabberd-gitversion: "0cbd41fbdc6a9a3d2d3153fd9305c90538b0448a"
+ejabberd-upload-days: "90"
+ejabberd-upload-fsize: "1 GB"
 
 url: "https://im.therudes.com"
 destination: "/var/www/im.therudes.com"
@@ -27,30 +29,30 @@ xmpp-conference-url: "conference.therudes.com" # The domain name of the conferen
 #xmpp-proxy-url: "proxy.therudes.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
 xmpp-upload-url: "upload.therudes.com"
 
-xep-0163: 1 # Personal Eventing Protocal
-xep-0237: 1 # Roster Versioning
-xep-0280: 1 # Message Carbons
-xep-0191: 1 # Blocking Command
-xep-0045: 1 # Multi-User Chat
-xep-0198: 1 # Stream Management
-xep-0313: 1 # Message Archive Management
-xep-0352: 1 # Client State Indication
-xep-0363: 1 # HTTP File Upload
-xep-0065: 1 # SOCKS 5 Bytestreams (Proxy)
-xep-0357: 1 # Push Notifications
+xep-0163: 1
+xep-0237: 0
+xep-0280: 1
+xep-0191: 1
+xep-0045: 1
+xep-0198: 1
+xep-0313: 1
+xep-0352: 1
+xep-0363: 1
+xep-0065: 1
+xep-0357: 1
 xep-0375: 1 # XMPP protocol compliance levels for 2016
 
 fingerprints: 1
 fingerprint: 1
 fingerprint-conference: 1
 fingerprint-proxy: 1
-fingerprint-expires: "Sep 18 00:00:08 2018 GMT"
+fingerprint-expires: "Nov 17 05:00:06 2018 GMT"
 fingerprint-im-expires: "Oct  5 23:58:31 2018 GMT"
 fingerprint-conference-expires: "Oct  5 23:58:31 2018 GMT"
 fingerprint-proxy-expires: "Oct  5 23:58:31 2018 GMT"
 fingerprint-upload-expires: "Oct  5 23:58:31 2018 GMT"
-fingerprint-sha1: "57:20:24:A0:FE:A8:20:CF:83:D8:50:DE:FD:45:0D:FF:CE:AC:AB:C3"
-fingerprint-sha256: "86:A0:E1:38:6C:84:8A:21:B4:98:79:D5:EE:2D:FC:E9:1E:95:2B:FA:24:F5:0C:03:A7:83:AD:E9:C4:63:21:63"
+fingerprint-sha1: "C1:BD:A8:6B:2B:BE:D8:36:C8:F4:A6:78:55:CC:32:63:90:BF:50:58"
+fingerprint-sha256: "06:68:25:39:BF:37:F5:3F:03:39:CC:C3:2E:C5:5F:3F:7D:A5:4F:82:73:E4:57:8D:C1:AF:57:78:B3:A4:3A:27"
 fingerprint-im-sha1: "65:01:83:3A:AC:1F:D8:5D:50:43:DD:85:1A:A2:E6:80:AD:A8:63:E5"
 fingerprint-im-sha256: "D8:B5:BB:E1:D8:9A:A5:CE:2B:E6:7F:92:57:E8:96:5A:E0:E7:72:C2:6C:3E:00:DB:C5:FD:6F:A3:32:0E:2E:68"
 fingerprint-conference-sha1: "65:01:83:3A:AC:1F:D8:5D:50:43:DD:85:1A:A2:E6:80:AD:A8:63:E5"
@@ -70,6 +72,7 @@ permalink: pretty
 highlighter: rouge
 date: YYYY-MM-DD HH:MM
 
+include: [".well-known"]
 exclude:
 - README.md
 - CONTRIBUTING.md

@@ -1,16 +1,12 @@
-# Site settings
-title: mattrude.com Communication Service
-email: matt@mattrude.com
+###########################################################################
+# XMPP Site Configuration
+
+title: "mattrude.com Communication Service"
 description: ""
 url: "https://im.mattrude.com"
 name: "mattrude.com"
 baseurl: "im.mattrude.com"
 destination: "/var/www/im.mattrude.com"
-ejabberd-version: "18.06.95"
-ejabberd-gitversion: "0146189b6551c1562823ed43ab3d3bca90a3a19b"
-prosody-version: ""
-server-features: 1
-user-guide: 0
 
 owner-name: "Matt Rude"
 owner-pgpkey: "0xc4909ee495b0761f"
@@ -26,36 +22,49 @@ xmpp-conference-url: "conference.mattrude.com" # Multi-User Chat xep-0045
 xmpp-proxy-url: "proxy.mattrude.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
 xmpp-upload-url: "upload.mattrude.com" # XEP-0065: SOCKS5 Bytestreams (Proxy)
 
-xep-0160: 0 # Best Practices for Handling Offline Messages
-xep-0163: 1 # Personal Eventing Protocal
-xep-0237: 1 # Roster Versioning
-xep-0280: 1 # Message Carbons
-xep-0191: 1 # Blocking Command
-xep-0045: 1 # Multi-User Chat
-xep-0198: 1 # Stream Management
-xep-0313: 1 # Message Archive Management
-xep-0352: 1 # Client State Indication
-xep-0363: 1 # HTTP File Upload
-xep-0065: 1 # SOCKS 5 Bytestreams (Proxy)
-xep-0357: 1 # Push Notifications
-xep-0375: 0 # XMPP protocol compliance levels for 2016
+server-features: 1
+user-guide: 0
+
+###########################################################################
+# The below values should auto update
+
+ejabberd-version: "18.06.109"
+ejabberd-gitversion: "0cbd41fbdc6a9a3d2d3153fd9305c90538b0448a"
+ejabberd-upload-days: "90"
+ejabberd-upload-fsize: "1 GB"
 
 fingerprints: 1
-fingerprint-expires: "Sep 18 00:00:15 2018 GMT"
-fingerprint-im-expires: "Sep 19 06:42:39 2018 GMT"
-fingerprint-conference-expires: "Sep 19 06:42:39 2018 GMT"
-fingerprint-proxy-expires: "Sep 19 06:42:39 2018 GMT"
-fingerprint-upload-expires: "Sep 19 06:42:39 2018 GMT"
-fingerprint-sha1: "15:F5:30:A6:C5:B5:BE:A6:50:82:45:25:5B:0F:01:F7:74:DF:5D:86"
-fingerprint-sha256: "78:E0:EA:9F:77:F8:5F:77:79:F5:8A:DA:95:F3:EF:B2:50:FE:63:8D:5A:A2:73:E1:2C:1E:F3:E3:F1:40:AE:78"
-fingerprint-im-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
-fingerprint-im-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
-fingerprint-conference-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
-fingerprint-conference-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
-fingerprint-proxy-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
-fingerprint-proxy-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
-fingerprint-upload-sha1: "73:13:23:6F:F7:C9:E2:BD:7C:49:7C:A0:7E:50:FF:67:57:6B:EC:1B"
-fingerprint-upload-sha256: "0D:1D:06:6F:C1:2B:58:BB:FA:F7:DF:25:3E:CD:78:81:65:38:79:12:ED:E3:CF:CE:FD:E2:CF:A1:1C:C4:61:7D"
+fingerprint-expires: "Nov 17 05:00:12 2018 GMT"
+fingerprint-im-expires: "Nov 18 06:28:11 2018 GMT"
+fingerprint-conference-expires: "Nov 18 06:28:11 2018 GMT"
+fingerprint-proxy-expires: "Nov 18 06:28:11 2018 GMT"
+fingerprint-upload-expires: "Nov 18 06:28:11 2018 GMT"
+fingerprint-sha1: "8B:7E:30:6F:8A:9A:90:BC:54:19:5F:19:C4:52:53:5C:3B:BA:F2:7B"
+fingerprint-sha256: "E5:DC:0F:4C:33:57:AD:9B:A8:23:DD:8A:CB:28:05:FC:26:0D:1B:03:07:90:80:7E:51:C0:F1:26:30:FE:46:A2"
+fingerprint-im-sha1: "13:8F:CA:5A:62:16:B9:6D:5D:C0:31:1C:08:BF:2C:B9:48:36:4C:A6"
+fingerprint-im-sha256: "FD:61:87:2B:D7:8E:71:0C:ED:AF:23:29:BE:20:DE:E7:F8:C7:F9:6F:B9:3D:08:4B:DC:46:8B:D5:08:76:83:94"
+fingerprint-conference-sha1: "13:8F:CA:5A:62:16:B9:6D:5D:C0:31:1C:08:BF:2C:B9:48:36:4C:A6"
+fingerprint-conference-sha256: "FD:61:87:2B:D7:8E:71:0C:ED:AF:23:29:BE:20:DE:E7:F8:C7:F9:6F:B9:3D:08:4B:DC:46:8B:D5:08:76:83:94"
+fingerprint-proxy-sha1: "13:8F:CA:5A:62:16:B9:6D:5D:C0:31:1C:08:BF:2C:B9:48:36:4C:A6"
+fingerprint-proxy-sha256: "FD:61:87:2B:D7:8E:71:0C:ED:AF:23:29:BE:20:DE:E7:F8:C7:F9:6F:B9:3D:08:4B:DC:46:8B:D5:08:76:83:94"
+fingerprint-upload-sha1: "13:8F:CA:5A:62:16:B9:6D:5D:C0:31:1C:08:BF:2C:B9:48:36:4C:A6"
+fingerprint-upload-sha256: "FD:61:87:2B:D7:8E:71:0C:ED:AF:23:29:BE:20:DE:E7:F8:C7:F9:6F:B9:3D:08:4B:DC:46:8B:D5:08:76:83:94"
+
+xep-0045: 1
+xep-0065: 1
+xep-0115: 1
+xep-0160: 1
+xep-0163: 1
+xep-0191: 1
+xep-0198: 1
+xep-0280: 1
+xep-0313: 1
+xep-0352: 1
+xep-0357: 1
+xep-0363: 1
+xep-0368: 1
+xep-0384: 1
+xep-0398: 1
 
 # Analytics settings
 #google_analytics_id: UA-9532791-9
@@ -65,6 +74,9 @@ markdown: kramdown
 permalink: pretty
 highlighter: rouge
 date: YYYY-MM-DD HH:MM
+
+include:
+- .well-known/host-meta
 
 exclude:
 - README.md
@@ -78,7 +90,7 @@ exclude:
 
 plugins:
 - jekyll-sitemap
-#- jekyll-press
+  #- jekyll-press
 
 jekyll-press:
   exclude: 'robots.txt, contact.txt, contact-ecc.txt' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
