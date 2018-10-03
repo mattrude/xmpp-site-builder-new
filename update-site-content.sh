@@ -34,9 +34,9 @@ do
             fi
         fi
     fi
-    sed -i "/fingerprint-expires/c$EXPIRES" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-sha1/c$SHA1" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-sha256/c$SHA256" /root/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-expires/c$EXPIRES" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-sha1/c$SHA1" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-sha256/c$SHA256" /var/src/xmpp-site/config/$DOMAIN.yml
 
     ###
     ### The IM Cert Tests
@@ -62,9 +62,9 @@ do
             fi
         fi
     fi
-    sed -i "/fingerprint-im-expires/c$IMEXPIRES" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-im-sha1/c$SHA1IM" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-im-sha256/c$SHA256IM" /root/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-im-expires/c$IMEXPIRES" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-im-sha1/c$SHA1IM" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-im-sha256/c$SHA256IM" /var/src/xmpp-site/config/$DOMAIN.yml
 
     ###
     ### The Conference Cert Tests
@@ -90,9 +90,9 @@ do
             fi
         fi
     fi
-    sed -i "/fingerprint-conference-expires/c$CONFERENCEEXPIRES" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-conference-sha1/c$SHA1CONFERENCE" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-conference-sha256/c$SHA256CONFERENCE" /root/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-conference-expires/c$CONFERENCEEXPIRES" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-conference-sha1/c$SHA1CONFERENCE" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-conference-sha256/c$SHA256CONFERENCE" /var/src/xmpp-site/config/$DOMAIN.yml
 
     ###
     ### The Proxy Cert Tests
@@ -118,9 +118,9 @@ do
             fi
         fi
     fi
-    sed -i "/fingerprint-proxy-expires/c$PROXYEXPIRES" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-proxy-sha1/c$SHA1PROXY" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-proxy-sha256/c$SHA256PROXY" /root/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-proxy-expires/c$PROXYEXPIRES" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-proxy-sha1/c$SHA1PROXY" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-proxy-sha256/c$SHA256PROXY" /var/src/xmpp-site/config/$DOMAIN.yml
 
     ###
     ### The Upload Cert Tests
@@ -146,7 +146,7 @@ do
             fi
         fi
     fi
-    sed -i "/fingerprint-upload-expires/c$UPLOADEXPIRES" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-upload-sha1/c$SHA1UPLOAD" /root/xmpp-site/config/$DOMAIN.yml
-    sed -i "/fingerprint-upload-sha256/c$SHA256UPLOAD" /root/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-upload-expires/c$UPLOADEXPIRES" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-upload-sha1/c$SHA1UPLOAD" /var/src/xmpp-site/config/$DOMAIN.yml
+    sed -i "/fingerprint-upload-sha256/c$SHA256UPLOAD" /var/src/xmpp-site/config/$DOMAIN.yml
 done
