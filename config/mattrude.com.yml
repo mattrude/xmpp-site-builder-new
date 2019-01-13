@@ -28,27 +28,27 @@ user-guide: 0
 ###########################################################################
 # The below values should auto update
 
-ejabberd-version: "18.09.35"
-ejabberd-gitversion: "9f7d3520aad34d5152f63135f805c874ca7d5d87"
+ejabberd-version: "18.12.60"
+ejabberd-gitversion: "1b0d481f41bdb29cc6bbaf0d410aafed5280e337"
 ejabberd-upload-days: "1825"
 ejabberd-upload-fsize: "1 GB"
 
 fingerprints: 1
-fingerprint-expires: "Jan 16 05:00:17 2019 GMT"
-fingerprint-im-expires: "Jan 21 20:33:57 2019 GMT"
-fingerprint-conference-expires: "Jan 21 20:33:57 2019 GMT"
-fingerprint-proxy-expires: "Jan 21 20:33:57 2019 GMT"
-fingerprint-upload-expires: "Jan 21 20:33:57 2019 GMT"
-fingerprint-sha1: "8B:31:11:EB:54:81:88:B6:00:56:B5:28:BE:B7:8A:78:63:12:14:D7"
-fingerprint-sha256: "26:02:C0:6A:C0:D1:E8:7C:64:1A:87:1F:F2:34:52:A7:A0:F2:47:BE:17:38:49:BB:D2:E8:2D:23:CB:1E:4F:77"
-fingerprint-im-sha1: "8E:5A:E4:0E:E8:14:AA:50:81:92:4A:91:95:E7:C8:2D:F6:41:CB:B2"
-fingerprint-im-sha256: "02:83:59:4B:A6:A9:13:44:5D:B9:8D:2B:C0:59:2A:11:9A:78:85:A0:5C:76:76:92:07:B5:FA:29:50:C7:9A:F4"
-fingerprint-conference-sha1: "8E:5A:E4:0E:E8:14:AA:50:81:92:4A:91:95:E7:C8:2D:F6:41:CB:B2"
-fingerprint-conference-sha256: "02:83:59:4B:A6:A9:13:44:5D:B9:8D:2B:C0:59:2A:11:9A:78:85:A0:5C:76:76:92:07:B5:FA:29:50:C7:9A:F4"
-fingerprint-proxy-sha1: "8E:5A:E4:0E:E8:14:AA:50:81:92:4A:91:95:E7:C8:2D:F6:41:CB:B2"
-fingerprint-proxy-sha256: "02:83:59:4B:A6:A9:13:44:5D:B9:8D:2B:C0:59:2A:11:9A:78:85:A0:5C:76:76:92:07:B5:FA:29:50:C7:9A:F4"
-fingerprint-upload-sha1: "8E:5A:E4:0E:E8:14:AA:50:81:92:4A:91:95:E7:C8:2D:F6:41:CB:B2"
-fingerprint-upload-sha256: "02:83:59:4B:A6:A9:13:44:5D:B9:8D:2B:C0:59:2A:11:9A:78:85:A0:5C:76:76:92:07:B5:FA:29:50:C7:9A:F4"
+fingerprint-expires: "Mar 17 06:00:17 2019 GMT"
+fingerprint-im-expires: "Mar 23 02:27:47 2019 GMT"
+fingerprint-conference-expires: "Mar 23 02:27:47 2019 GMT"
+fingerprint-proxy-expires: "Mar 23 02:27:47 2019 GMT"
+fingerprint-upload-expires: "Mar 23 02:27:47 2019 GMT"
+fingerprint-sha1: "2F:22:8B:D2:22:35:CB:2D:C4:6F:10:83:BE:EF:E8:8E:96:55:F4:B1"
+fingerprint-sha256: "20:72:A7:4E:4F:13:3E:B5:00:AE:8F:39:48:02:C4:19:11:DA:9E:67:D8:DD:42:86:EE:E5:8D:96:C1:30:58:0B"
+fingerprint-im-sha1: "BE:1E:01:F4:25:8B:8D:09:0D:DF:5A:0E:47:36:19:DF:9C:CC:AB:EB"
+fingerprint-im-sha256: "DC:15:F6:ED:F1:64:6D:17:33:61:D9:58:22:EC:C2:8B:3B:3A:D6:A7:1F:4A:59:A1:A0:EC:49:EA:4B:37:4C:74"
+fingerprint-conference-sha1: "BE:1E:01:F4:25:8B:8D:09:0D:DF:5A:0E:47:36:19:DF:9C:CC:AB:EB"
+fingerprint-conference-sha256: "DC:15:F6:ED:F1:64:6D:17:33:61:D9:58:22:EC:C2:8B:3B:3A:D6:A7:1F:4A:59:A1:A0:EC:49:EA:4B:37:4C:74"
+fingerprint-proxy-sha1: "BE:1E:01:F4:25:8B:8D:09:0D:DF:5A:0E:47:36:19:DF:9C:CC:AB:EB"
+fingerprint-proxy-sha256: "DC:15:F6:ED:F1:64:6D:17:33:61:D9:58:22:EC:C2:8B:3B:3A:D6:A7:1F:4A:59:A1:A0:EC:49:EA:4B:37:4C:74"
+fingerprint-upload-sha1: "BE:1E:01:F4:25:8B:8D:09:0D:DF:5A:0E:47:36:19:DF:9C:CC:AB:EB"
+fingerprint-upload-sha256: "DC:15:F6:ED:F1:64:6D:17:33:61:D9:58:22:EC:C2:8B:3B:3A:D6:A7:1F:4A:59:A1:A0:EC:49:EA:4B:37:4C:74"
 
 xep-0045: 1
 xep-0065: 1
