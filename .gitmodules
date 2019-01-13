@@ -1,3 +1,6 @@
 [submodule "sites/lite"]
 	path = sites/lite
 	url = git@github.com:mattrude/xmpp-site-lite.git
+[submodule "sites/main"]
+	path = sites/main
+	url = git@github.com:mattrude/xmpp-site.git
