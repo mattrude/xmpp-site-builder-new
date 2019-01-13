@@ -4,3 +4,6 @@
 [submodule "sites/main"]
 	path = sites/main
 	url = git@github.com:mattrude/xmpp-site.git
+[submodule "sites/placeholder"]
+	path = sites/placeholder
+	url = git@github.com:mattrude/xmpp-site-placeholder.git
